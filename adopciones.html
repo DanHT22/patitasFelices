@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adopciones.css">>
+    <title>Adopciones</title>
+</head>
+<body>
+    <header>
+        <h1>Adopciones</h1>
+        <!-- Barra de navegación -->
+        <nav class="navegador">
+            <a href=""></a>
+            <a href="index.html" class="inicio-adopciones">Inicio</a>
+            <a href="contactanos.html" class="contactanos-adopciones">Contactanos</a>
+            <a href="nosotros.html" class="nostros-adopciones">Acerca de nosotros</a>
+            <a href="adopciones.html" class=" adopciones-adopciones">Adopciones</a>
+            <a href="extraviados.html" class="extraviados-adopciones">Extraviados</a>
+        </nav>
+
+        <div class="chihuahua">
+            <img src="https://i.postimg.cc/jdJnvYLr/graciaspordonar.png" alt="chihuahua" width="200px">
+
+        </div>
+    </header>
+
+    <main>
+        <div class="div-preferencias">
+            <h3>Preferencias de adopción</h3>
+            <br>
+            <h4>Tamaño del perro</h4>
+            <br>
+            <div class="checkbox-adopciones">
+                <input type="checkbox" name="tamano" id="toy" value="toy"></input>
+                <label for="toy">Toy</label>
+                <input type="checkbox" name="tamano" id="pequeno" value="pequeno"></input>
+                <label for="pequeno">Pequeño</label>
+                <input type="checkbox" name="tamano" id="mediano" value="mediano"></input>
+                <label for="mediano">Mediano</label>
+                <input type="checkbox" name="tamano" id="grande" value="grande"></input>
+                <label for="grande">Grande</label>
+                <input type="checkbox" name="tamano" id="gigante" value="gigante"></input>
+                <label for="gigante">Gigante</label>
+            </div>
+            <div class="genero">
+                <h4>Genero del perro</h4>
+                <br>
+                <input type="radio" name="genero" id="hembra" value="hembra">
+                <label for="hembra">Hembra</label>
+                <input type="radio" name="genero" id="macho" value="macho">
+                <label for="macho">Macho</label>
+            </div>
+            <div class="edad">
+                <h4>Edad del perro</h4>
+                <br>
+                <label for="">1</label>
+                <input type="range">
+                <label for="">10</label>
+                <br><br>
+                <label for="">Color de preferencia</label>
+                <br>
+                <input type="text">
+            </div>
+        </div>
+
+        <div class="galeria">
+            <h2 id="titulo-galeria">Perros en adopción</h2>
+            <br>
+            <br>
+            <image src="/image/david-lezcano-m-Doa-GTrUw-unsplash(1).jpg" width="30%"></image>
+            <image src="/image/flouffy-qEO5MpLyOks-unsplash.jpg" width="30%"></image>
+             <image src="/image/flouffy--dMO9Dm-gkU-unsplash.jpg" width="30%"></image>
+        </div>
+
+        <div class="donacion">
+            <h2 class="donaciones">Donaciones</h2>
+            <br>
+            <div class="pago">
+                    <br>
+                    <label for="cantidad">Cantidad de dinero que desea donar</label>
+                    <br>
+                    <br>
+                    <input type="text" id="cantidad" name="cantindad" value="" />
+                    <br>
+                    <br>
+            </div>
+            <div class="datos-cuenta">
+                    <h3>Cuenta</h3>
+                    <br>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" value="" />
+
+                    <label for="email">email</label>
+                    <input type="text" id="email" name="email" value="" />
+
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion" name="direccion" value="" />
+
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" id="ciudad" name="ciudad" value="" />
+
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" name="estado" value="" />
+
+                    <label for="cp">Codigo Postal</label>
+                    <input type="number" id="cp" name="cp" value="" />
+            </div>
+            
+            <div class="realizar-pago">
+                <h3>Pago</h3>
+                <br>
+                <h4>Tarjetas aceptadas</h4>
+                <br>
+                <div class="tarjetas">
+                    <input type="radio" name="tarjeta" id="mastercard" value="Mastercard">
+                    <label for="mastercard">Mastercard</label>
+                    <input type="radio" name="tarjeta" id="Paypal" value="Paypal">
+                    <label for="Paypal">Paypal</label>
+                    <input type="radio" name="tarjeta" id="visa" value="visa">
+                    <label for="visa">VISA</label>
+                </div>
+                <label for="nombret">Nombre en la tarjeta</label>
+                <input type="text" id="nombret" name="nombret" value="" />
+                <br>
+                <label for="numtar">Numero de tarjeta de credito</label>
+                <input type="number" id="numtar" name="numtar" value="" />
+                <br>
+                <label for="fecha">Fecha de expedición</label>
+                <input type="date" id="fecha" name="fecha" value="2023-06-29" min="2000-01-01" max="2050-12-31">
+                <br>
+                <label for="ano">Año de vencimiento</label>
+                <input type="number" id="ano" name="ano" value="" />
+                <br>
+                <label for="cvv">CVV</label>
+                <input type="number" id="cvv" name="cvv" value="" />
+                <br>
+                <button>Procesar pago</button> 
+            </div>    
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="aliados">
+            <h6>Nuestros alidados</h6>
+            <br>
+            <!-- Logo purina -->
+            <img src="https://seeklogo.com/images/P/purina-logo-10CD51CD8D-seeklogo.com.png" alt="logo" width="50px" height="50px">
+
+             <!-- Logo generation-->
+            <img src="https://process.filestackapi.com/resize=width:600,height:315,fit:max/quality=value:90/vohhXZHLTdKhKiwviS2Q" alt="logo" width="50px" height="30px">
+
+            <!-- Logo perrito-->
+            <img src="https://cdn-icons-png.flaticon.com/512/620/620851.png" alt="logo" width="50px" height="50px">
+        </div>
+        <div class="redes">
+            <!-- link a facebook -->
+            <a href="https://www.facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="logo facebook" width="50px" height="50px"></a>
+            <!-- link a instagram -->
+            <a href="https://www.instagram.com">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="logo instagram" width="50px" height="50px"></a>
+            <!-- link a tiktok-->
+            <a href="https://www.tiktok.com">
+            <img src="https://cdn-icons-png.flaticon.com/512/4138/4138198.png" alt="logo tiktok" width="50px" height="50px"></a>
+        </div>
+    </footer>  
+</body>
+</html>
