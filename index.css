@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100%;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-colorido-modelo-huellas-pata-perro-o-gato_1017-30662.jpg?w=2000);
+}
+
+
+html{height: 100%;}
+
+.grid-container > *{
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.header{
+    grid-area: header;
+    background-color: rgb(215, 239, 251);
+}
+
+.titulo{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.navbar{
+    grid-area: navbar;
+    background-color: rgb(238, 237, 237);
+    align-items: center;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(7, 7, 70);
+}
+
+.sidebar{
+    grid-area: sidebar;
+    /* background-image: url(https://patitasfelicespets.files.wordpress.com/2020/08/cropped-whatsapp-image-2020-08-10-at-15.55.36-1.jpeg); */
+}
+
+.banner{
+    width: 50%;
+}
+.main{
+    grid-area: main;
+}
+
+table{
+    border: rgba(240, 23, 171, 0.856) solid 5px;
+    background-color: rgba(198, 247, 247, 0.611);
+}
+th,td{
+    border: rgba(53, 45, 214, 0.854) solid 2px;
+}
+
+.section{
+    grid-area: section;
+    background-color: bisque;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: rgb(215, 239, 251);
+}
+
+/* Telefono */
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "header"
+    "navbar"
+    "main"
+    "sidebar"
+    "section"
+    "footer";
+}
+/* Tablet */
+@media (min-width:600px)
+{
+    .grid-container{
+        /* grid-template-columns: 200px auto;
+        grid-template-rows: 100px 50px auto 100px; */
+        grid-template-areas: 
+        "header header"
+        "navbar navbar"
+        "section section"
+        "sidebar main"
+        "footer footer"
+        ;
+    }
+}
+
+/* footer{
+    clear: both;
+} */
+
+/* Escritorio */
+@media (min-width:900px){
+    .grid-container{
+        /* grid-template-columns: auto auto; */
+        /* grid-template-rows: 100px 50px auto 100px; */
+        grid-template-areas: 
+        "header header header"
+        "navbar navbar navbar"
+        "section section section"
+        "sidebar sidebar main"
+        "footer footer footer"
+        ;
+    }
+}
+
