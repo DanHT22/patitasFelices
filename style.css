@@ -1,0 +1,55 @@
+*{
+    margin: 3px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body{
+    
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-colorido-modelo-huellas-pata-perro-o-gato_1017-30662.jpg?w=2000);
+}
+h1{
+    text-align: center;
+    padding: 10px 0px;
+}
+h1,p{
+    background-color: rgba(255, 255, 255, 0.804);
+
+}
+nav{
+    background-color: rgb(235, 234, 234) ;
+    padding: 10px 0px;
+    text-align: center;
+} 
+img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
+
+table{
+    border: rgba(240, 23, 171, 0.856) solid 5px;
+}
+th,td{
+    border: rgba(53, 45, 214, 0.854) solid 2px;
+}
+#mision{
+    color: rgba(53, 45, 214, 0.854);
+    padding: 2px;
+    text-align: justify;
+}
+#vision{
+    color: rgba(240, 23, 171, 0.856) ;
+    padding: 2px;
+    text-align: justify;
+}
+fieldset{
+    background-color: rgb(201, 200, 200);
+    padding: 0px;
+    margin: 0;
+}
+footer{
+    text-align: center;
+    background-color: rgb(235, 234, 234);
+    padding: 0 !important;
+    margin: 0 -10px !important;  
+}
