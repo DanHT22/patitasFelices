@@ -11,8 +11,8 @@ Miembros del equipo:
 - Aranza
 - Angel
 - Daniela
-- Francisco
 - Gina
+- Roberto
 ---
 
 ### Generation México CH29
