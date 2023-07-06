@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Perros extraviados</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/image/huella-3.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="css/styleExtraviados.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            <a href="index.html" class="enlace"><img src="image/logo_1.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+                <li><a href="nosotros.html">Acerca de nosotros</a></li>
+                <li><a href="adopciones.html">Adopciones</a></li>
+                <li><a href="extraviados.html">Extraviados</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- formulario -->
+        <h2 id="encabezado">Formulario de perro extraviado</h2>
+        <form class="tabla_1">
+            <fieldset>
+                <p id="extraviados">Proporciona los datos del perro extraviado</p>
+                <br>
+                <label for="tamaño">¿Cuál es su tamaño?</label>
+                <input type="radio" name="tamaño" id="pequeño" value="pequeño" required>
+                <label for="pequeño">Pequeño</label>
+                <input type="radio" name="tamaño" id="mediano" value="mediano" required>
+                <label for="mediano">Mediano</label>
+                <input type="radio" name="tamaño" id="grande" value="grande" required>
+                <label for="grande">Grande</label>
+                <br>
+                <!-- Subir un archivo -->
+                <label for="ine">Sube foto de tu perro</label>
+                <input type="file" id="ine" required>
+                <br>
+                <!-- select -->
+                <label for="zona">Zona donde se encuentra</label>
+                <select name="zona" id="zona" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="norte">Norte</option>
+                    <option value="sur">Sur</option>
+                    <option value="este">Este</option>
+                    <option value="oeste">Oeste</option>
+                </select>
+                <br>
+
+                <label for="municipio">Municipio</label>
+                <input type="text" id="municipio" required>
+                <br>
+
+                <label for="calle">Calle</label>
+                <input type="text" id="calle" required>
+                <br>
+
+                <!-- Date -->
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="date" id="fecha" required>
+                <br>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>Nuestros aliados:</p>
+        <div>
+            <!-- Logo purina -->
+            <img src="https://seeklogo.com/images/P/purina-logo-10CD51CD8D-seeklogo.com.png" alt="logo" width="50px"
+                height="50px">
+            <!-- Logo generation-->
+            <img src="https://process.filestackapi.com/resize=width:600,height:315,fit:max/quality=value:90/vohhXZHLTdKhKiwviS2Q"
+                alt="logo" width="50px" height="30px">
+            <!-- Logo perrito-->
+            <img src="https://cdn-icons-png.flaticon.com/512/620/620851.png" alt="logo" width="50px" height="50px">
+            <br>
+            <!-- link a facebook -->
+            <a href="https://www.facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png"
+                    alt="logo facebook" width="50px" height="50px"></a>
+            <!-- link a instagram -->
+            <a href="https://www.instagram.com"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png"
+                    alt="logo instagram" width="50px" height="50px"></a>
+            <!-- link a tiktok -->
+            <a href="https://www.tiktok.com"><img src="https://cdn-icons-png.flaticon.com/512/4138/4138198.png"
+                    alt="logo tiktok" width="50px" height="50px"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
