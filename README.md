@@ -1,4 +1,4 @@
-# patitasFelices
+# Patitas Felices
 ---
 Este es un repositorio para el proyecto de desarrollo de una página web para el Centro comunitario que lleva por nombre **Patitas Felices**.
 
