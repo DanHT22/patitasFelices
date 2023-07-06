@@ -7,9 +7,12 @@ El concepto de la aplicación web es que las personas pueda proporcionar los dat
 Por otro lado, otras personas que no quieren adoptar un perro por el momento pero que si tienen el  deseao de  apoyar a la causa puede encontrar una sección para realizar donaciones ya sea en dinero o en especie. 
 
 ---
-Miembros de equipo:
+Miembros del equipo:
 - Aranza
 - Angel
 - Daniela
 - Francisco
 - Gina
+---
+
+### Generation México CH29
